@@ -233,11 +233,8 @@ function loadSongs(){
     .then(r=>{ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
     .then(d=>{
       songs = Array.isArray(d.songs) ? d.songs.filter(s=>s && s.file) : [];
-      // 首次打开：无收藏记录时默认全部收藏，列表=全部歌曲；取消某首即从列表移除、后面的自动顶上
-      if(!localStorage.getItem('cloudFavs')){
-        songs.forEach(s=>{ favs[s.file] = 1; });
-        localStorage.setItem('cloudFavs', JSON.stringify(favs));
-      }
+      // 收藏 = 用户显式点序号收藏（本设备 localStorage）；新入库歌曲不自动进收藏
+      // 首次打开：无收藏记录则空收藏，全部歌曲显示在「歌曲」分类
       applyFilter();
     })
     .catch(()=>{
@@ -401,10 +398,10 @@ function histDel(kw){
   renderHist();
 }
 function render(){
-  const cats = {song:[], instrument:[], puju:[], errenzhuan:[], mv:[], backup:[]};
+  const cats = {fav:[], song:[], instrument:[], puju:[], errenzhuan:[], mv:[]};
   const colls = {};
   shown.forEach(s=>{
-    if(!favs[s.file] && !favs[s.title]){ cats.backup.push(s); return; }  // 取消收藏→移入备选分类
+    if(favs[s.file] || favs[s.title]){ cats.fav.push(s); return; }  // 已收藏→「收藏」分类（平时听歌）
     if(s.coll){ (colls[s.coll] || (colls[s.coll]=[])).push(s); }
     else { cats[classify(s)].push(s); }
   });
@@ -438,7 +435,8 @@ function render(){
       });
       return s;
     };
-    // 歌曲优先展示，其次合集分类，再其他常规分类
+    // 收藏优先展示（平时听歌），其次歌曲，再合集与其他分类
+    html += sec(cats.fav,'收藏','','','fav');
     html += sec(cats.song,'歌曲','','','song');
     Object.keys(colls).sort((a,b)=>String(a).localeCompare(String(b),'zh-Hans-CN',{numeric:true}))
       .forEach(name=>{ html += sec(colls[name], '合集 · '+name, name, 'c', 'coll-'+name); });
@@ -446,31 +444,20 @@ function render(){
     html += sec(cats.puju,'蒲剧','蒲剧','p','puju');
     html += sec(cats.errenzhuan,'二人转','二人转','e','errenzhuan');
     html += sec(cats.mv,'MV','MV','m','mv');
-    // 备选按歌单分类分组显示：取消收藏的歌曲归入对应分类的备选组
-    if(cats.backup.length){
-      const backupGroups = {};
-      cats.backup.forEach(s=>{ const k = s.coll || '未分类'; (backupGroups[k] || (backupGroups[k]=[])).push(s); });
-      html += '<div class="group-title" id="sec-backup">备选（'+cats.backup.length+'）</div>';
-      Object.keys(backupGroups).sort((a,b)=>String(a).localeCompare(String(b),'zh-Hans-CN',{numeric:true}))
-        .forEach(name=>{
-          html += '<div class="group-title sub">'+esc(name)+'（'+backupGroups[name].length+'）</div>';
-          html += secItems(backupGroups[name], '', '');
-        });
-    }
   }
-  document.getElementById('list').innerHTML = html + '<div class="stat" id="stat">共 '+songs.length+' 首 · 显示 '+shown.length+' 首 · 显示顺序=播放顺序（标题自然排序，合集内循环）· 点歌曲左侧序号=<b>取消收藏</b>，取消后移入<b>『备选』</b>分类、后面的自动顶上（备选里点序号可<b>恢复收藏</b>）</div>';
+  document.getElementById('list').innerHTML = html + '<div class="stat" id="stat">共 '+songs.length+' 首 · 显示 '+shown.length+' 首 · 显示顺序=播放顺序（标题自然排序，合集内循环）· 点歌曲左侧序号=<b>收藏/取消收藏</b>：收藏的歌进「收藏」分类（平时听歌用），其余在「歌曲」分类</div>';
   // 顶部分类直达导航：点击滚动到对应分组
   const nav = document.getElementById('navchips');
   if(nav){
     const chips = [];
     const chip = (name, target)=>{ chips.push('<span class="chip" data-t="'+target+'">'+esc(name)+'</span>'); };
+    chip('收藏','sec-fav');
     chip('歌曲','sec-song');
     Object.keys(colls).sort((a,b)=>String(a).localeCompare(String(b),'zh-Hans-CN',{numeric:true})).forEach(name=>{ chip(name,'sec-coll-'+name); });
     chip('器乐曲','sec-instrument');
     chip('蒲剧','sec-puju');
     chip('二人转','sec-errenzhuan');
     chip('MV','sec-mv');
-    chip('备选','sec-backup');
     nav.innerHTML = chips.join('');
     nav.onclick = e=>{
       const c = e.target.closest('.chip');
@@ -761,11 +748,11 @@ function favAll(){
 function favClearAll(){
   const n = Object.keys(favs).length;
   if(!n){ alert('本设备还没有收藏的歌曲，无需取消。'); return; }
-  if(!confirm('确定取消全部收藏吗？全部歌曲将移入『备选』分类（点“一键全部收藏”可全部恢复）')) return;
+  if(!confirm('确定取消全部收藏吗？全部歌曲将回到「歌曲」分类（点“一键全部收藏”可全部恢复）')) return;
   favs = {};
   localStorage.setItem('cloudFavs', JSON.stringify(favs));
   applyFilter();
-  alert('已取消全部收藏，全部歌曲已移入『备选』。点“一键全部收藏”可全部恢复。');
+  alert('已取消全部收藏，全部歌曲已回到「歌曲」分类。点“一键全部收藏”可全部恢复。');
 }
 function favExport(){
   const n = Object.keys(favs).length;
