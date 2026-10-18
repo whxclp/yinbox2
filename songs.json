@@ -545,70 +545,70 @@
       "type": "mv"
     },
     {
-      "title": "中国纯音乐1",
+      "title": "月亮之上",
       "artist": "",
       "file": "songs/单曲/10首神仙级中国纯音乐-1.mp4",
       "lrc": "",
       "type": "mv"
     },
     {
-      "title": "中国纯音乐2",
+      "title": "我要去西藏",
       "artist": "",
       "file": "songs/单曲/10首神仙级中国纯音乐-2.mp4",
       "lrc": "",
       "type": "mv"
     },
     {
-      "title": "中国纯音乐3",
+      "title": "陪你一起看草原",
       "artist": "",
       "file": "songs/单曲/10首神仙级中国纯音乐-3.mp4",
       "lrc": "",
       "type": "mv"
     },
     {
-      "title": "中国纯音乐4",
+      "title": "西海情歌",
       "artist": "",
       "file": "songs/单曲/10首神仙级中国纯音乐-4.mp4",
       "lrc": "",
       "type": "mv"
     },
     {
-      "title": "中国纯音乐5",
+      "title": "梦江南",
       "artist": "",
       "file": "songs/单曲/10首神仙级中国纯音乐-5.mp4",
       "lrc": "",
       "type": "mv"
     },
     {
-      "title": "中国纯音乐6",
+      "title": "天路",
       "artist": "",
       "file": "songs/单曲/10首神仙级中国纯音乐-6.mp4",
       "lrc": "",
       "type": "mv"
     },
     {
-      "title": "中国纯音乐7",
+      "title": "常回家看看",
       "artist": "",
       "file": "songs/单曲/10首神仙级中国纯音乐-7.mp4",
       "lrc": "",
       "type": "mv"
     },
     {
-      "title": "中国纯音乐8",
+      "title": "泉水叮咚响",
       "artist": "",
       "file": "songs/单曲/10首神仙级中国纯音乐-8.mp4",
       "lrc": "",
       "type": "mv"
     },
     {
-      "title": "中国纯音乐9",
+      "title": "苗岭的早晨",
       "artist": "",
       "file": "songs/单曲/10首神仙级中国纯音乐-9.mp4",
       "lrc": "",
       "type": "mv"
     },
     {
-      "title": "中国纯音乐10",
+      "title": "康定情歌",
       "artist": "",
       "file": "songs/单曲/10首神仙级中国纯音乐-10.mp4",
       "lrc": "",
@@ -1048,7 +1048,7 @@
       "coll": "整合集"
     },
     {
-      "title": "80红歌1",
+      "title": "牡丹之歌",
       "artist": "",
       "file": "songs/老哥连唱/80红歌1.mp4",
       "lrc": "",
@@ -1080,22 +1080,6 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "80红歌13",
-      "artist": "",
-      "file": "songs/老哥连唱/80红歌13.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "80红歌14",
-      "artist": "",
-      "file": "songs/老哥连唱/80红歌14.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
       "title": "驼铃",
       "artist": "",
       "file": "songs/老哥连唱/80红歌15.mp4",
@@ -1112,15 +1096,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "80红歌17",
-      "artist": "",
-      "file": "songs/老哥连唱/80红歌17.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "80红歌18",
+      "title": "红星照我去战斗",
       "artist": "",
       "file": "songs/老哥连唱/80红歌18.mp4",
       "lrc": "",
@@ -1147,14 +1123,6 @@
       "title": "太阳岛上",
       "artist": "",
       "file": "songs/老哥连唱/80红歌20.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "80红歌21",
-      "artist": "",
-      "file": "songs/老哥连唱/80红歌21.mp4",
       "lrc": "",
       "type": "mv",
       "coll": "老哥连唱"
@@ -1596,7 +1564,7 @@
       "lrc": ""
     },
     {
-      "title": "怀旧老歌1",
+      "title": "最远的你是我最近的爱",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌1.mp4",
       "lrc": "",
@@ -1604,7 +1572,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌10",
+      "title": "样样红",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌10.mp4",
       "lrc": "",
@@ -1612,7 +1580,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌11",
+      "title": "你的样子",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌11.mp4",
       "lrc": "",
@@ -1620,7 +1588,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌12",
+      "title": "相思",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌12.mp4",
       "lrc": "",
@@ -1628,7 +1596,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌13",
+      "title": "只要有你",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌13.mp4",
       "lrc": "",
@@ -1636,7 +1604,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌14",
+      "title": "九百九十九朵玫瑰",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌14.mp4",
       "lrc": "",
@@ -1644,7 +1612,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌15",
+      "title": "别问我是谁",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌15.mp4",
       "lrc": "",
@@ -1652,7 +1620,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌16",
+      "title": "特别的爱给特别的你",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌16.mp4",
       "lrc": "",
@@ -1660,7 +1628,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌17",
+      "title": "心雨",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌17.mp4",
       "lrc": "",
@@ -1668,7 +1636,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌18",
+      "title": "渡情",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌18.mp4",
       "lrc": "",
@@ -1676,7 +1644,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌19",
+      "title": "画心",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌19.mp4",
       "lrc": "",
@@ -1684,7 +1652,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌2",
+      "title": "牵挂你的人是我",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌2.mp4",
       "lrc": "",
@@ -1692,7 +1660,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌20",
+      "title": "真的好想你",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌20.mp4",
       "lrc": "",
@@ -1700,79 +1668,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌21",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌21.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌22",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌22.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌23",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌23.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌24",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌24.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌25",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌25.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌26",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌26.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌27",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌27.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌28",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌28.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌29",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌29.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌3",
+      "title": "日不落",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌3.mp4",
       "lrc": "",
@@ -1780,31 +1676,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌30",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌30.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌31",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌31.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌32",
-      "artist": "",
-      "file": "songs/老哥连唱/怀旧老歌32.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "老哥连唱"
-    },
-    {
-      "title": "怀旧老歌4",
+      "title": "好想好想",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌4.mp4",
       "lrc": "",
@@ -1812,7 +1684,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌5",
+      "title": "对你爱不完",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌5.mp4",
       "lrc": "",
@@ -1820,7 +1692,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌6",
+      "title": "我是不是该安静的走开",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌6.mp4",
       "lrc": "",
@@ -1828,7 +1700,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌7",
+      "title": "大头皮鞋",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌7.mp4",
       "lrc": "",
@@ -1836,7 +1708,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌8",
+      "title": "新鸳鸯蝴蝶梦",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌8.mp4",
       "lrc": "",
@@ -1844,7 +1716,7 @@
       "coll": "老哥连唱"
     },
     {
-      "title": "怀旧老歌9",
+      "title": "再回首",
       "artist": "",
       "file": "songs/老哥连唱/怀旧老歌9.mp4",
       "lrc": "",
@@ -2536,150 +2408,6 @@
       "coll": "草原歌曲"
     },
     {
-      "title": "蒲剧烟花泪1",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪1.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪10",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪10.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪11",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪11.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪12",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪12.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪13",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪13.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪14",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪14.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪15",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪15.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪16",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪16.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪17",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪17.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪18",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪18.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪2",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪2.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪3",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪3.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪4",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪4.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪5",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪5.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪6",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪6.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪7",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪7.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪8",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪8.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
-      "title": "蒲剧烟花泪9",
-      "artist": "",
-      "file": "songs/蒲剧烟花泪/蒲剧烟花泪9.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "蒲剧烟花泪"
-    },
-    {
       "title": "我像傻子一样爱你",
       "artist": "",
       "file": "songs/车载音乐/车载音乐1.mp4",
@@ -2760,7 +2488,7 @@
       "coll": "车载音乐"
     },
     {
-      "title": "今夜何等温柔",
+      "title": "忧郁的爱",
       "artist": "",
       "file": "songs/轻音乐/轻音乐10.mp4",
       "lrc": "",
@@ -2768,7 +2496,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "莎啦啦",
+      "title": "伴你一生",
       "artist": "",
       "file": "songs/轻音乐/轻音乐11.mp4",
       "lrc": "",
@@ -2776,7 +2504,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "大大世界",
+      "title": "玫瑰之吻",
       "artist": "",
       "file": "songs/轻音乐/轻音乐12.mp4",
       "lrc": "",
@@ -2784,7 +2512,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "忧郁的爱",
+      "title": "爱的纪念",
       "artist": "",
       "file": "songs/轻音乐/轻音乐13.mp4",
       "lrc": "",
@@ -2792,7 +2520,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "伴你一生",
+      "title": "至爱",
       "artist": "",
       "file": "songs/轻音乐/轻音乐14.mp4",
       "lrc": "",
@@ -2800,7 +2528,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "伴你一生",
+      "title": "无论如何",
       "artist": "",
       "file": "songs/轻音乐/轻音乐15.mp4",
       "lrc": "",
@@ -2808,7 +2536,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "玫瑰之吻",
+      "title": "永志不渝",
       "artist": "",
       "file": "songs/轻音乐/轻音乐16.mp4",
       "lrc": "",
@@ -2816,7 +2544,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "爱的纪念",
+      "title": "德朗的微笑",
       "artist": "",
       "file": "songs/轻音乐/轻音乐17.mp4",
       "lrc": "",
@@ -2824,7 +2552,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "至爱",
+      "title": "摇篮曲",
       "artist": "",
       "file": "songs/轻音乐/轻音乐18.mp4",
       "lrc": "",
@@ -2832,15 +2560,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "无论如何",
-      "artist": "",
-      "file": "songs/轻音乐/轻音乐19.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "轻音乐"
-    },
-    {
-      "title": "昨日重现",
+      "title": "阿根廷别为我哭泣",
       "artist": "",
       "file": "songs/轻音乐/轻音乐2.mp4",
       "lrc": "",
@@ -2848,31 +2568,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "永志不渝",
-      "artist": "",
-      "file": "songs/轻音乐/轻音乐20.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "轻音乐"
-    },
-    {
-      "title": "德朗的微笑",
-      "artist": "",
-      "file": "songs/轻音乐/轻音乐21.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "轻音乐"
-    },
-    {
-      "title": "轻音乐22",
-      "artist": "",
-      "file": "songs/轻音乐/轻音乐22.mp4",
-      "lrc": "",
-      "type": "mv",
-      "coll": "轻音乐"
-    },
-    {
-      "title": "昨日重现",
+      "title": "卡萨布兰卡",
       "artist": "",
       "file": "songs/轻音乐/轻音乐3.mp4",
       "lrc": "",
@@ -2880,7 +2576,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "阿根廷别为我哭泣",
+      "title": "绿袖子",
       "artist": "",
       "file": "songs/轻音乐/轻音乐4.mp4",
       "lrc": "",
@@ -2888,7 +2584,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "阿根廷别为我哭泣",
+      "title": "爱情故事",
       "artist": "",
       "file": "songs/轻音乐/轻音乐5.mp4",
       "lrc": "",
@@ -2896,7 +2592,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "卡萨布兰卡",
+      "title": "爱你在心口难开",
       "artist": "",
       "file": "songs/轻音乐/轻音乐6.mp4",
       "lrc": "",
@@ -2904,7 +2600,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "绿袖子",
+      "title": "今夜何等温柔",
       "artist": "",
       "file": "songs/轻音乐/轻音乐7.mp4",
       "lrc": "",
@@ -2912,7 +2608,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "爱情故事",
+      "title": "莎啦啦",
       "artist": "",
       "file": "songs/轻音乐/轻音乐8.mp4",
       "lrc": "",
@@ -2920,7 +2616,7 @@
       "coll": "轻音乐"
     },
     {
-      "title": "爱你在心口难开",
+      "title": "大大世界",
       "artist": "",
       "file": "songs/轻音乐/轻音乐9.mp4",
       "lrc": "",
@@ -3852,6 +3548,14 @@
       "file": "songs/单曲/二人转蓝瑞莲.mp3",
       "lrc": "",
       "new": true
+    },
+    {
+      "title": "蒲剧 烟花泪（完整版）",
+      "artist": "",
+      "file": "songs/蒲剧烟花泪/蒲剧烟花泪完整版.mp4",
+      "lrc": "",
+      "type": "mv",
+      "coll": "蒲剧烟花泪"
     }
   ]
 }
