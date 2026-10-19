@@ -1,4 +1,4 @@
-{
+﻿{
   "songs": [
     {
       "title": "为内蒙古喝彩（降央卓玛）",
@@ -2736,6 +2736,13 @@
       "artist": "SDMAI",
       "file": "songs/单曲/草原清风来.mp3",
       "lrc": ""
+    },
+    {
+      "title": "吉祥（原版MV·春雷）",
+      "artist": "春雷",
+      "file": "songs/单曲/吉祥原版MV.mp4",
+      "lrc": "",
+      "type": "mv"
     }
   ]
 }
