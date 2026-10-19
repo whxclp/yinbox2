@@ -414,7 +414,7 @@ function render(){
     html = '<div class="empty">没有符合筛选条件的歌曲。</div>';
   } else {
     const sec = (items, label, tagText, tagClass, secId)=>{
-      if(!items.length) return '';
+      if(!items.length && secId !== 'fav') return '';   // 「收藏」分类空也保留显示（收藏（0））
       // shown 已按标题自然排序，分组直接沿用该顺序 = 播放顺序
       return '<div class="group-title" id="sec-'+(secId||'')+'">'+label+'（'+items.length+'）</div>' + secItems(items, tagText, tagClass);
     };
