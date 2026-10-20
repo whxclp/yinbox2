@@ -106,13 +106,14 @@
   .empty{padding:40px 20px; text-align:center; color:var(--sub); font-size:14px; line-height:1.9;}
   /* ===== MV 画面区 ===== */
   #mvWrap{
-    position:fixed; left:50%; top:170px; transform:translateX(-50%);
+    position:fixed; left:50%; top:min(250px,28vh); transform:translateX(-50%);
     width:min(92vw,560px); z-index:18; display:none; border-radius:12px; overflow:hidden;
     border:1px solid var(--line); box-shadow:0 6px 24px rgba(0,0,0,.5); background:#000;
   }
   #mvWrap video{display:block; width:100%; max-height:46vh; background:#000;}
   /* ===== 播放器条 ===== */
   .player{
+    position:relative; z-index:20;
     background:var(--panel);
     border-bottom:1px solid var(--line); padding:8px 14px 10px;
   }
